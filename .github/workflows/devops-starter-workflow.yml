@@ -5,12 +5,12 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: "AzureDevOpsJL"    # set this to your application's name
+  AZURE_WEBAPP_NAME: "bmi-test"    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: "Application"      # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.7.5'                       # set this to the python version to use
-  RESOURCEGROUPNAME: "AzureDevOpsJL-rg"
+  RESOURCEGROUPNAME: "bmi-test"
   LOCATION: "South Central US"
-  HOSTINGPLANNAME: "AzureDevOpsJL-plan"
+  HOSTINGPLANNAME: "bmi-test-plan"
   APPINSIGHTLOCATION: "South Central US"
   SKU: "S1 Standard"
 
